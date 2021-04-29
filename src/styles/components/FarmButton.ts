@@ -29,6 +29,13 @@ export const Container = styled.div`
     }
   }
 
+  & > a:hover {
+    background: #ffff;
+    color: #a970ff;
+    transition: 0.5s;
+    transition-delay: 1s;
+  }
+
   & > a > span:nth-child(1) {
     left: 0;
     bottom: 0;
@@ -53,11 +60,49 @@ export const Container = styled.div`
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.25s;
+    transition-delay: 0.25s;
   }
 
   & > a:hover > span:nth-child(2) {
     transform: scaleX(1);
     transform-origin: left;
     transition: transform 0.25s;
+    transition-delay: 0.25s;
+  }
+
+  & > a > span:nth-child(3) {
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.25s;
+    transition-delay: 0.5s;
+  }
+
+  & > a:hover > span:nth-child(3) {
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.25s;
+    transition-delay: 0.5s;
+  }
+
+  & > a > span:nth-child(4) {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s;
+    transition-delay: 0.75s;
+  }
+
+  & > a:hover > span:nth-child(4) {
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.25s;
+    transition-delay: 0.75s;
   }
 `;

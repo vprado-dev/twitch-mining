@@ -10,7 +10,7 @@ const FarmButton: React.FC = () => {
         <span></span>
         <span></span>
         <span></span>
-        Button
+        Farm
       </a>
     </Styled.Container>
   );

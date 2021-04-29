@@ -17,13 +17,16 @@
   },
   "background": {
     "scripts": ["background.js"],
+    "matches": ["https://www.twitch.tv/*"],
+    "exclude_matches": ["https://www.twitch.tv/videos/*"],
     "persistent": false
   },
   "content_scripts": [
     {
       "matches": ["https://www.twitch.tv/*"],
+      "exclude_matches": ["https://www.twitch.tv/videos/*"],
       "js": ["content.js"]
     }
   ],
-  "permissions": ["storage"]
+  "permissions": ["tabs", "*://*.google.com/*"]
 }

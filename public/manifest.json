@@ -1,5 +1,5 @@
 {
-  "name": "Chrome Extension Boilerplate",
+  "name": "TwTv-farm",
   "description": "Chrome Extension boilerplate created with React Typescript.",
   "manifest_version": 2,
   "version": "1.0.0",
@@ -16,19 +16,13 @@
     "default_popup": "popup.html"
   },
   "background": {
-    "scripts": [
-      "background.js"
-    ],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "content_scripts": [
     {
-      "matches": [
-        "*://*/*"
-      ],
-      "js": [
-        "content.js"
-      ]
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
     }
   ]
 }

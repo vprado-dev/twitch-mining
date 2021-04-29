@@ -34,6 +34,7 @@ export const Container = styled.div`
     color: #a970ff;
     transition: 0.5s;
     transition-delay: 1s;
+    cursor: pointer;
   }
 
   & > a > span:nth-child(1) {

@@ -1,23 +1,44 @@
-# Chrome Extension boilerplate created with React Typescript
+# Twitch Mining
 
-## Getting started
+<img src="https://img.shields.io/github/issues/VinicinhuSZ/twitch-mining"> <a href="https://github.com/VinicinhuSZ/twitch-mining/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/VinicinhuSZ/twitch-mining"></a>
+<a href="https://github.com/VinicinhuSZ/twitch-mining"><img alt="GitHub license" src="https://img.shields.io/github/license/VinicinhuSZ/twitch-mining"></a>
 
-Create a project based on this boilerplate.
+## Install
 
-```
-$ npx degit https://github.com/sivertschou/react-typescript-chrome-extension-boilerplate.git#christmas <project-name>
-```
+Install the dependecies
 
-Navigate to the project directory and install the dependencies.
+```sh
+$ yarn install
 
-```
+OR
+
 $ npm install
 ```
 
-To build the extension, and rebuild it when the files are changed, run
+## Usage
 
+To run this project you have to execute :
+
+```sh
+$ yarn build
+
+OR
+
+$ npm run build
 ```
-$ npm start
+
+## Debug
+
+After building the project you can run the commands below to auto compile on save.
+
+Obs: Don't forget to reload the extension at `chrome://extensions`
+
+```sh
+$ yarn start
+
+OR
+
+$ npm run start
 ```
 
 After the project has been built, a directory named `dist` has been created. You have to add this directory to your Chrome browser:

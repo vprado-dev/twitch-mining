@@ -1,5 +1,4 @@
 import React, { FC, useCallback, useState } from 'react';
-import { MessageType } from '../../types/messageType';
 import * as Styled from '../../styles/components/FarmButton';
 
 const FarmButton: React.FC = () => {

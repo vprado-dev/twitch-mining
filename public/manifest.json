@@ -28,5 +28,5 @@
       "js": ["content.js"]
     }
   ],
-  "permissions": ["tabs", "*://*.google.com/*"]
+  "permissions": ["tabs", "notifications", "http://*/*", "https://*/*"]
 }

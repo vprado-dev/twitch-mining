@@ -10,13 +10,14 @@ const FarmButton: React.FC = () => {
     chrome.runtime.sendMessage('Hello from the popup!');
   }, []);
   return (
-    <Styled.Container>
+    <Styled.Container onClick={startFarm}>
       <a>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
-        <button onClick={startFarm}>Farm</button>
+        Farm
+        {/* <button onClick={startFarm}></button> */}
       </a>
     </Styled.Container>
   );

@@ -1,7 +1,7 @@
 # Twitch Mining
 
-<img src="https://img.shields.io/github/issues/VinicinhuSZ/twitch-mining"> <a href="https://github.com/VinicinhuSZ/twitch-mining/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/VinicinhuSZ/twitch-mining"></a>
-<a href="https://github.com/VinicinhuSZ/twitch-mining"><img alt="GitHub license" src="https://img.shields.io/github/license/VinicinhuSZ/twitch-mining"></a>
+<a href="https://github.com/VinicinhuSZ/twitch-mining/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/VinicinhuSZ/twitch-mining?color=a970ff"></a>
+<a href="https://github.com/VinicinhuSZ/twitch-mining"><img alt="GitHub license" src="https://img.shields.io/github/license/VinicinhuSZ/twitch-mining?color=a970ff"></a>
 
 ## Install
 

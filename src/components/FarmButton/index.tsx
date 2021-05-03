@@ -7,7 +7,7 @@ const FarmButton: React.FC = () => {
   const startFarm = useCallback(() => {
     setIsFarm(!isFarm);
     chrome.runtime.sendMessage('Hello from the popup!');
-  }, []);
+  }, [isFarm]);
   return (
     <Styled.Container onClick={startFarm}>
       <a>
@@ -15,8 +15,7 @@ const FarmButton: React.FC = () => {
         <span></span>
         <span></span>
         <span></span>
-        Farm
-        {/* <button onClick={startFarm}></button> */}
+        {!isFarm ? <>Farm</> : <>Desligar Farm</>}
       </a>
     </Styled.Container>
   );

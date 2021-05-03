@@ -1,5 +1,5 @@
 import * as React from 'react';
-import logo from './logo.svg';
+import logo from './twitch-mining.svg';
 import './App.css';
 import FarmButton from './components/FarmButton';
 

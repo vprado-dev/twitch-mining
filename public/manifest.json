@@ -1,6 +1,6 @@
 {
-  "name": "TwTv-farm",
-  "description": "Chrome Extension boilerplate created with React Typescript.",
+  "name": "Twitch Mining",
+  "description": "Chrome extension to farm channel point at twitch.tv",
   "manifest_version": 2,
   "version": "1.0.0",
   "icons": {
